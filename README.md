@@ -11,6 +11,7 @@ And if you find ABRW or this framework is useful for your research, please consi
 ```bash
 pip install -r requirements.txt
 ```
+Note: python 3.6 or above is required due to the [new print() feature](https://docs.python.org/3.6/reference/lexical_analysis.html#f-strings)
 ### Run ABRW method with default parameters
 ```bash
 python src/main.py --method abrw
