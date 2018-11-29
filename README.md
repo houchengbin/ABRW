@@ -1,9 +1,10 @@
 # ABRW: Attributed Biased Random Walks
 ABRW is an Attributed Network/Graph Embedding (ANE) method, which takes network structural information and node attribute information as the input, and generates unified low-dim node embeddings for each node in the network as the output. The node embeddings can be then fed into various different downstream tasks e.g. node classification and link prediction. The off-the-shelf Machine Learning techniques and distance/similarity metrics can be easily applied in the downstream tasks, since the resulting node embeddings are just some isolated low-dim data points in Euclidean space.
 
-For more details, please have a look at our paper:
+by Chengbin HOU 2018 chengbin.hou10(AT)foxmail.com
 
-by Chengbin Hou 2018 chengbin.hou10(AT)foxmail.com
+#### For more details, please have a look at our paper https://arxiv.org/abs/1811.11728 
+And if you find ABRW or this framework is useful for your research, please consider citing our paper.
 
 ## Usages
 ### Install necessary packages
@@ -16,7 +17,7 @@ python src/main.py --method abrw
 ```
 ### Try other methods
 abrw; aane; tadw; attrpure; attrcomb; deepwalk; node2vec
-### Change parameters of each method
+### Change parameters in each method
 Please see main.py
 
 ## Datasets
@@ -34,4 +35,4 @@ node_id1 attr1 attr2 ... attrM
 node_id1 label(s)
 
 ## Acknowledgement
-Thanks to Zeyu DONG for helpful discussions. And thanks to the excellent project https://github.com/thunlp/OpenNE, so that we can have a good starting point to carry on our project.
+Thanks to Zeyu DONG for helpful discussions. And thanks to [the excellent project](https://github.com/thunlp/OpenNE), so that we can have a good starting point to carry on our project.
