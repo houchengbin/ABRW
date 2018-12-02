@@ -6,6 +6,9 @@ by Chengbin HOU 2018 chengbin.hou10(AT)foxmail.com
 #### For more details, please have a look at our paper https://arxiv.org/abs/1811.11728 
 And if you find ABRW or this framework is useful for your research, please consider citing our paper.
 
+## Notice
+For the future updates of ABRW method, please see https://github.com/houchengbin/OpenANE
+
 ## Usages
 ### Install necessary packages
 ```bash
