@@ -3,13 +3,23 @@ ABRW is an Attributed Network/Graph Embedding (ANE) method, which takes network 
 
 by Chengbin HOU 2018 chengbin.hou10(AT)foxmail.com
 
-#### For more details, please have a look at our paper https://arxiv.org/abs/1811.11728 
-And if you find ABRW or this framework is useful for your research, please consider citing our paper.
+For more details, please have a look at our paper https://arxiv.org/abs/1811.11728. And if you find ABRW or this framework is useful for your research, please consider citing it.
+```
+@article{hou2018abrw,
+  title={Attributed Network Embedding for Incomplete Structure Information},
+  author={Hou, Chengbin and He, Shan and Tang, Ke},
+  journal={arXiv preprint arXiv:1811.11728},
+  year={2018}
+}
+```
 
-## Notice
-For the future updates of ABRW method, please see https://github.com/houchengbin/OpenANE
+# Notice
 
-## Usages
+### For the future updates of ABRW method, please see https://github.com/houchengbin/OpenANE
+<br>
+<br>
+
+# Usages
 ### Install necessary packages
 ```bash
 pip install -r requirements.txt
