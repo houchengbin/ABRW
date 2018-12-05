@@ -1,3 +1,8 @@
+# Notice
+
+### For the future updates of ABRW method, please see https://github.com/houchengbin/OpenANE
+<br>
+
 # ABRW: Attributed Biased Random Walks
 ABRW is an Attributed Network/Graph Embedding (ANE) method, which takes network structural information and node attribute information as the input, and generates unified low-dim node embeddings for each node in the network as the output. The node embeddings can be then fed into various different downstream tasks e.g. node classification and link prediction. The off-the-shelf Machine Learning techniques and distance/similarity metrics can be easily applied in the downstream tasks, since the resulting node embeddings are just some isolated low-dim data points in Euclidean space.
 
@@ -12,12 +17,6 @@ For more details, please have a look at our paper https://arxiv.org/abs/1811.117
   year={2018}
 }
 ```
-
-# Notice
-
-### For the future updates of ABRW method, please see https://github.com/houchengbin/OpenANE
-<br>
-<br>
 
 # Usages
 ### Install necessary packages
