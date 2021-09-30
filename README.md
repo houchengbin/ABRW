@@ -10,11 +10,14 @@ by Chengbin HOU 2018 chengbin.hou10(AT)foxmail.com
 
 For more details, please have a look at our paper https://arxiv.org/abs/1811.11728. And if you find ABRW or this framework is useful for your research, please consider citing it.
 ```
-@article{hou2019abrw,
-  title={Attributed Network Embedding for Incomplete Attributed Networks},
+@article{hou2020RoSANE,
+  title={RoSANE: Robust and Scalable Attributed Network Embedding for Sparse Networks},
   author={Hou, Chengbin and He, Shan and Tang, Ke},
-  journal={arXiv preprint arXiv:1811.11728v2},
-  year={2019}
+  journal={Neurocomputing},
+  year={2020},
+  publisher={Elsevier},
+  url={https://doi.org/10.1016/j.neucom.2020.05.080},
+  doi={10.1016/j.neucom.2020.05.080},
 }
 ```
 
